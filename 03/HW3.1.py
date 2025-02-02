@@ -18,3 +18,4 @@ elif int(b) == 0 and sym == "/":
     exit("You can't divide by 0")
 else:
     exit("Invalid symbol entered")
+
