@@ -6,4 +6,3 @@ while 0 in lst:
     lst_1.append(0)
 lst.extend(lst_1)
 print("=> List: ", lst)
-
