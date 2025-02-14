@@ -1,5 +1,5 @@
 while True:
-    ans = str.lower((input("Do you want start? : ")))
+    ans = str.lower(input("Do you want start? : "))
     if ans in ['y', 'yes', 'т', 'так', 'д', 'да']:
         first_n = input("Enter a first number: ")
         second_n = input("Enter a second number: ")
