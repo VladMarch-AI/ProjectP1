@@ -1,8 +1,8 @@
-numb = input("Enter the radius of the circle:")
+numb = input("Enter number:")
 if "." in numb:
     numb = numb.replace( ".", "")
 if "," in numb:
     numb = numb.replace( ",", "")
 if not numb.isdigit():
-    exit("No numbers entered")
+    exit("No number entered")
 print(numb)
