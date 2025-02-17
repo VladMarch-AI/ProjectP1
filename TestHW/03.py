@@ -1,6 +1,9 @@
 from math import pi
 
-rad = float(input("Enter the radius of the circle:"))
+rad = input("Enter the radius of the circle:")
+if rad == int(rad) or rad == float(rad):
+    exit("No numbers entered")
+rad = int(rad)
 circuit = 2 * pi * rad
 area = pi * rad ** 2
 
