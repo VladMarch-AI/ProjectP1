@@ -4,4 +4,4 @@ x2 = float(input("Enter the coordinates "'x'" of the second point: "))
 y2 = float(input("Enter the coordinates "'y'" of the second point: "))
 
 distance = ((x2 - x1) ** 2 + (y2 - y1) ** 2) ** 0.5
-print("Distance: ", distance)
+print("Distance:", distance)
