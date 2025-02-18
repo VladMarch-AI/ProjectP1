@@ -2,10 +2,8 @@ def correct_sentence(text):
   text = list(text)
   if text[-1] != ".":
     text.append(".")
-  n_text = text[0].title()
-  text[0] = n_text
-  text = ''.join(text)
-  return f"{text}"
+  text[0] = text[0].title()
+  return ''.join(text)
 
 assert correct_sentence("greetings, friends") == "Greetings, friends.", 'Test1'
 assert correct_sentence("hello") == "Hello.", 'Test2'
