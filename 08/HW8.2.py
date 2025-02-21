@@ -1,6 +1,6 @@
 def is_palindrome(text):
-    symbl = (",", ".", ":", " ")
-    my_text = "".join(item for item in text if item not in symbl).lower()
+    from string import punctuation
+    my_text = "".join(item for item in text if item not in punctuation).lower().replace(" ","")
     return my_text == my_text[::-1]
 
 
