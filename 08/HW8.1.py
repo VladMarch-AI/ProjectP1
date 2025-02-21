@@ -1,9 +1,8 @@
 def add_one(some_list):
-  some_list = int(str(some_list)[1:-1].replace(",", "").replace(" ", ""))
-  some_list += 1
-  some_list = str(some_list)
+  number = int(str(some_list)[1:-1].replace(",", "").replace(" ", ""))
+  number += 1
   my_list = []
-  for element in some_list:
+  for element in str(number):
       my_list.append(int(element))
   return my_list
 
