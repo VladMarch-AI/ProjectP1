@@ -1,7 +1,7 @@
 def difference(*numbers):
-    if not numbers:
-        return 0
-    return round(max(numbers) - min(numbers), 2)
+  if not numbers:
+      return 0
+  return round(max(numbers) - min(numbers), 2)
 
 
 assert difference(1, 2, 3) == 2, 'Test1'
