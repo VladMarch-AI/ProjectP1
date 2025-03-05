@@ -1,5 +1,5 @@
 def is_even(number):
-  if str(number)[-1] in ['1', '3', '5', '7', '9']:
+  if str(number)[-1] in '13579':
       return False
   else:
       return True
