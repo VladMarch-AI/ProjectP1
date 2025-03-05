@@ -1,6 +1,5 @@
 def is_even(number):
-  str_n = str(number)
-  if str_n[-1] in ['1', '3', '5', '7', '9']:
+  if str(number)[-1] in ['1', '3', '5', '7', '9']:
       return False
   else:
       return True
